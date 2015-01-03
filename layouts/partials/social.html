@@ -19,7 +19,9 @@
         <!-- Linkedin -->
         <li class="navigation__item">
             <a href="http://no.linkedin.com/in/{{ .Site.Params.linkedin }}/en" title="Linkedin"> <i class='fa fa-ll'></i> <span class="label">Linkedin</span> </a>
-        </li> {{ end }} {{ if .Site.Params.xing }}
+        </li> {{ end }}
+        <!-- EDIT: Add support for xing profile -->
+        {{ if .Site.Params.xing }}
         <!-- Xing -->
         <li class="navigation__item">
             <a href="https://www.xing.com/profile/{{ .Site.Params.xing }}" title="Xing"> <i class='fa fa-xing'></i> <span class="label">Xing</span> </a>
