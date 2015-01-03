@@ -3,7 +3,7 @@ title = "propertySL"
 date = "2015-01-03T16:49:59+01:00"
 Categories = ["projects"]
 Tags = ["dev", "mdsd", "xtext", "xtend", "oss", "eclipse"]
-draft = true
+draft = false
 +++
 
 [<img align="right" src="https://travis-ci.org/fBrx/propertySL.png">](https://travis-ci.org/fBrx/propertySL)
