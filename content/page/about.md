@@ -8,7 +8,7 @@ draft = false
 
 This is my personal site where I keep all kinds of stuff related to IT, photography and any other thoughts.
 
-This blog has been created with [Hugo](http://gohugo.io/), a static website engine. The theme is based on the [hugo-uno](https://github.com/SenjinDarashiva/hugo-uno) theme.
+This site has been created with [Hugo](http://gohugo.io/) - a static website engine - and [atom](https://atom.io/) - a highly customisable editor. The look & feel is based on the [hugo-uno](https://github.com/SenjinDarashiva/hugo-uno) theme.
 
 ## ...me
 
