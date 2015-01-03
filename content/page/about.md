@@ -1,10 +1,7 @@
 +++
-date = "2015-01-01T16:21:51+01:00"
-authorname = "fbrx"
-draft = false
 title = "About"
-authors = [ "fBrx" ]
-categories = [ "personal" ]
+date = "2015-01-01T16:21:51+01:00"
+draft = false
 +++
 
 ## About - this blog

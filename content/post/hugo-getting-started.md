@@ -1,9 +1,8 @@
 +++
+title = "Getting started with Hugo"
 date = "2015-01-02T17:35:43+01:00"
-authorname = "fBrx"
 categories = ["development"]
 tags = ["hugo", "web", "cms"]
-title = "Getting started with Hugo"
 draft = false
 +++
 
