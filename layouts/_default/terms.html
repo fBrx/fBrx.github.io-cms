@@ -1,0 +1,17 @@
+{{ partial "head.html" . }}
+<body>
+    {{ partial "sidebar.html" . }}
+    <div class="content-wrapper">
+        <div class="content-wrapper__inner">
+            <h1>{{ .Title }}</h1>
+            {{ $data := .Data }}
+            <ul>
+            {{ range $key, $value := .Data.Terms }}
+                <li><a href="/{{ $data.Plural }}/{{ $key | urlize }}/#blog">{{ $key }}</a> - {{ len $value }}</li>
+            {{ end }}
+            </ul>
+        </div>
+    </div>
+</body>
+{{ partial "script.html" .}}
+</html>

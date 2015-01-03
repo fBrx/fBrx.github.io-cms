@@ -1,0 +1,36 @@
+  {{ partial "head.html" . }}
+  <body>
+    {{ partial "sidebar.html" . }}
+    <div class="content-wrapper">
+      <div class="content-wrapper__inner">
+        <div class="post">
+            <div class="post-single-meta">
+                <span class="post-date">{{ .Date.Format "Mon, Jan 2, 2006" }} by {{ .Site.Params.author }}</span>
+            </div>
+            <h1>{{ .Title }}</h1>
+            {{ .Content }}
+        </div>
+        <div class="post-single-meta-bottom">
+            {{ if .Params.tags }}
+            <div class="post-tags">
+                Tags:
+                {{ range .Params.tags }}
+                <a class="post-tag post-tag-{{ . | urlize }}" href="/tags/{{ . | urlize }}/#blog">{{ . }}</a>
+                {{ end }}
+            </div>
+            {{ end }}
+            {{ if .Params.categories }}
+            <div class="post-categories">
+                Categories:
+                {{ range .Params.categories }}
+                <a class="post-category post-category-{{ . | urlize }}" href="/categories/{{ . | urlize }}/#blog">{{ . }}</a>
+                {{ end }}
+            </div>
+            {{ end }}
+        </div>
+        {{ partial "comments.html" .}}
+      </div>
+    </div>
+  </body>
+  {{ partial "script.html" .}}
+</html>
