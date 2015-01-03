@@ -1,0 +1,35 @@
+.navigation__item {
+    float: left;
+    margin-left: 5px;
+}
+
+
+.navigation--social {
+    margin-left: 0em;
+}
+
+.cover-navigation--primary .navigation__item{
+    width: 100px;
+}
+
+footer {
+    padding-top: 1em;
+}
+
+.post-single-meta{
+    float: right;
+    color: #c7c7c7;
+}
+
+.post-single-meta-bottom{
+    color: #c7c7c7;
+    padding-top: 1em;
+}
+
+.post-tags{
+    float: right;
+}
+
+.post-comments{
+    margin-top: -1.3em;
+}
