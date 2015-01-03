@@ -1,10 +1,12 @@
 baseurl = "https://fbrx.github.io/"
 languageCode = "en-us"
-title = "// fBrx"
+title = "// Florian Brüssel / fBrx"
 theme = "hugo-uno"
+
 [Params]
     author = "fBrx"
     github = "fBrx"
+    twitter = "f_brx"
     xing = "Florian_Bruessel"
     description = "fixing the world one exception at a time."
     about = "/page/about"
