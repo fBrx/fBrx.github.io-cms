@@ -1,5 +1,5 @@
-rm -rvf public && hugo
-cp -rvf public/* ../fBrx.github.io/
+rm -rf public && hugo
+cp -rf public/* ../fBrx.github.io/
 cd ../fBrx.github.io
 git add -A
 git status
