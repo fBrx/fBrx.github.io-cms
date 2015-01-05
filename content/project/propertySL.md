@@ -1,6 +1,6 @@
 +++
 title = "propertySL"
-date = "2015-01-03T16:49:59+01:00"
+date = "2013-12-22T16:49:59+01:00"
 Categories = ["projects"]
 Tags = ["dev", "mdsd", "xtext", "xtend", "oss", "eclipse"]
 draft = false
