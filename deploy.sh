@@ -1,6 +1,6 @@
 # purge and rebuild site
 rm -rf public
-docker run -v $PWD:/data fbrx/hugo -s /data
+docker run --rm -v $PWD:/data fbrx/hugo -s /data
 
 # copy to correct repo for publishing
 rm -rf ../fBrx.github.io/*
