@@ -1,5 +1,6 @@
 # purge and rebuild site
-rm -rf public && hugo
+rm -rf public
+docker run -v $PWD:/data fbrx/hugo -s /data
 
 # copy to correct repo for publishing
 rm -rf ../fBrx.github.io/*
@@ -16,4 +17,4 @@ message="updated site content"
 if [ $# -eq 1 ]
     then message="$1"
 fi
-git commit -m "$message" && git push
+#git commit -m "$message" && git push
