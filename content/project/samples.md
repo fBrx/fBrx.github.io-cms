@@ -3,7 +3,7 @@ title = "samples"
 date = "2013-08-24T22:24:13+01:00"
 Categories = ["projects"]
 Tags = ["java", "jaxrs", "jaxws", "spring", "xslt"]
-draft = true
+draft = false
 +++
 
 [<img align="right" src="https://travis-ci.org/fBrx/samples.png">](https://travis-ci.org/fBrx/samples)
