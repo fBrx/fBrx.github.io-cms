@@ -18,7 +18,7 @@ From the Xtext homepage:
 
 ## Current State
 
-The current state of the project is pretty much wip - with the only problem beeing, that I don't have much time to put any more effort into this.
+The current state of the project is pretty much wip - with the only problem being, that I don't have much time to put any more effort into this.
 
 So if there are any contributions I would be happy to include them.
 
