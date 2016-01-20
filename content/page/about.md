@@ -16,4 +16,4 @@ I'm an software architect / engineer based out of Stuttgart, Germany. I focus ma
 
 Besides my usual interest in design and performance, currently I'm deeply interested in anything related to improving the overall development performance - especially in larger teams. This spans from the usual suspects like continuous integration and delivery to thigs like container virtualization and model driven software development.
 
-Currently I'm employed by [CGI](http://www.cgi.com/), a global IT consulting company. The thoughts and opinions expressed on this site are solely my own and have no relationship to my employer.
+Currently I'm employed by [W&W Informatik GmbH](http://www.ww-informatik.de/), the only IT supplier for the [W&W AG](http://www.ww-ag.de). The thoughts and opinions expressed on this site are solely my own and have no relationship to my employer.
