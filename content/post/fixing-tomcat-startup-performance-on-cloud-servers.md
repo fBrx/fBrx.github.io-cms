@@ -3,7 +3,7 @@ title = "Fixing Tomcat startup performance on cloud servers"
 date = "2016-01-21T00:20:45+01:00"
 categories = ["development"]
 tags = ["tomcat", "web", "docker", "cloud", "performance"]
-draft = true
+draft = false
 +++
 
 Apache Tomcat is well known to be a lightweight and _fast_ web container. This makes it a perfect fit for running your Java based web applications. Doing just that and playing around with [Docker Tutum](https://www.tutum.co/) and [Digitalocean](https://www.digitalocean.com) I discovered that starting up a Docker Container, which would take <25s locally took over 2 minutes when being deployed on a Digitalocean server.
